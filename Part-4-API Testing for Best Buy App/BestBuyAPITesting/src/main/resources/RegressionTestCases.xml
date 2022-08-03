@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="RegressionTestCases">
+<test name="CategoriesTestCases">
+    <classes>
+<class name="Categories"/>
+    </classes>
+     </test>
+     <test name="Products">
+     <classes>
+     <class name="ProductTestCases"/>
+     </classes>
+    </test>
+     <test name="Services">
+     <classes>
+     <class name="servicesTestCases"/>
+     </classes>
+     </test>
+     <test name="Stores">
+     <classes>
+     <class name="StoresTestCases"/>
+     </classes>
+     </test>
+
+
+</suite>
